@@ -14,7 +14,6 @@ while True:
     if type == "simple":
         password = ''.join(secrets.choice(simple) for i in range (int(size)))
         print(password)
-
     if type == "complex":
         password = ''.join(secrets.choice(complex) for i in range (int(size)))
         print(password)
