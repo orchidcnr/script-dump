@@ -7,7 +7,7 @@ simple = string.ascii_letters + string.digits
 complex = simple + string.punctuation
 
 # Credits and stuff
-print("password-generator v1.1.2")
+print("password-generator v1.1.3")
 
 # Questions
 while True:
@@ -31,7 +31,7 @@ while True:
         print(password)
         pyperclip.copy(password)
     else:
-        type = input('The answer you provided means nothing to my python script headass. Please provide an answer containing either "s" or "c". Also, you look great today! (≧◡≦)♡ ')
+        type = input('The answer you provided means nothing to my python script headass. Please provide an answer containing "s" or "c". ')
         continue
     # Regenerate password
     again = input("Copied to clipboard! Generate again? (y/n) ")
