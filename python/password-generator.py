@@ -6,6 +6,9 @@ import pyperclip
 simple = string.ascii_letters + string.digits
 complex = simple + string.punctuation
 
+# Credits and stuff
+print("password-generator v1.1.2")
+
 # Questions
 while True:
     try:
